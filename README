@@ -1,0 +1,8 @@
+•	Install python if you haven’t already 
+•	Use IDE such as PyCharm or Visual studio code(I faced a few problems while using visual studio code and would recommend using PyCharm, the problem was that even after installing tensorflow in the system as well as keras, the IDE could not recognize keras, I tried debugging the problem but using PyCharm no such problems were faced.)
+•	Create a folder and open the terminal or command prompt in that folder location
+•	Create a virtual environment using the command py -m venv venv (env is the name of the environment and you can use what every name you want)
+•	Next activate the Activate.ps1 script in the venv /Scripts
+•	Copy and past the Facebook_model.h5, saved_model.h5, webapp.py, AppleData.csv and FacebookStock.csv files in the folder
+•	Run pip install for all the modules that are required( there is a requirements.txt file which shows the modules that were installed)
+•	Then run the webapp.py file in order to run the webapp on your local host
